@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro de Itens</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>ListaFácil</h1>
+  </header>
+  <div class="topo-container" style="margin-top: 80px;">
+    <img src="imagem/carrinho.png" alt="Carrinho de Compras" class="topo-imagem" />
+  </div>
+  <div style="text-align: center; margin-top: -100px;"> 
+    <h1>Adicionar Item</h1>
+    <form id="formCadastro">
+      <div style="display: flex; gap: 10px;">
+        <input type="text" id="nomeItem" placeholder="Nome do item" required />
+        <select id="quantidadeItem" required>
+          <option value="">Qtd.</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3 ou mais">3 ou mais</option>
+        </select>
+      </div>
+      <label>Categoria:</label>
+      <select id="categoriaItem" required>
+        <option value="">Selecione uma categoria</option>
+        <option value="Alimentos">Alimentos</option>
+        <option value="Bebidas">Bebidas</option>
+        <option value="Utilidades">Utilidades</option>
+        <option value="Outra">Outra</option>
+      </select>
+      <input type="text" id="outraCategoria" placeholder="Digite a categoria" style="display: none;" />
+      <button type="submit">Adicionar</button>
+      <button type="button" onclick="window.location.href='lista.html'">Ver Lista</button>
+      <a href="index.html">Voltar ao Início</a>
+    </form>
+  </div>
+  <footer>
+    <p>© 2025 ListaFácil</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

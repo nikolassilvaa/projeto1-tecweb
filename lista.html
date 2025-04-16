@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Itens</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>ListaFácil</h1>
+  </header>
+  <div class="topo-container" style="margin-top: 80px;">
+    <img id="imagemCarrinho" src="imagem/carrinho.png" alt="Carrinho de Compras" class="topo-imagem" />
+  </div>
+  <div style="text-align: center; margin-top: -100px;">
+    <h1>Lista de Compras</h1>
+    <div id="conteudoLista">
+      <div id="filtroContainer">
+        <label for="filtroCategoria">Filtrar por categoria:</label>
+        <select id="filtroCategoria">
+          <option value="Todas">Todas</option>
+          <option value="Alimentos">Alimentos</option>
+          <option value="Bebidas">Bebidas</option>
+          <option value="Utilidades">Utilidades</option>
+          <option value="Outra">Outras</option>
+        </select>
+      </div>
+      <ul id="listaItens"></ul>
+    </div>
+    <div id="botoesAdicionais" style="display: none; text-align: center; margin-top: 20px;">
+      <button onclick="window.location.href='cadastro.html'">Adicionar mais itens</button>
+      <a href="index.html" class="voltar-inicio">Voltar ao início</a>
+    </div>
+    <div id="mensagemListaVazia" style="display: none; text-align: center; margin-top: 20px;">
+      <p>É necessário ter pelo menos 1 item.</p>
+      <button onclick="window.location.href='cadastro.html'">Adicionar itens</button>
+    </div>
+  </div>
+  <footer>
+    <p>© 2025 ListaFácil</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
