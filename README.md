@@ -26,7 +26,7 @@ Você só precisa de um navegador (como Chrome, Firefox ou Edge). Nenhuma instal
 1. Baixe ou clone este repositório:
 git clone https://github.com/seu-usuario/listafacil.git
 
-2.Navegue até a pasta do projeto:
+2. Navegue até a pasta do projeto:
 cd listafacil
 
 3. Abra o arquivo ```index.html``` no navegador (duplo clique ou botão direito > abrir com navegador).
