@@ -24,10 +24,10 @@ Você só precisa de um navegador (como Chrome, Firefox ou Edge). Nenhuma instal
 ### 2. Executando o projeto
 
 1. Baixe ou clone este repositório:
-git clone https://github.com/nikolassilvaa/projeto1-tecweb
+```git clone https://github.com/nikolassilvaa/projeto1-tecweb```
 
 2. Navegue até a pasta do projeto:
-cd projeto1-tecweb
+```cd projeto1-tecweb```
 
 3. Abra o arquivo ```index.html``` no navegador (duplo clique ou botão direito > abrir com navegador).
 
