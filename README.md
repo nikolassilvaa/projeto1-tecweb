@@ -1,7 +1,8 @@
 # Projeto 1 - Tecnologias Web
 Primeiro projeto de tecnologias web com o objetivo de demonstrar funcionalidades essenciais, como navegação, formulários e manipulação de dados em memória.
 
-ListaFácil é uma aplicação web simples feita com **HTML**, **CSS** e **JavaScript** que permite o usuário criar, visualizar e gerenciar uma lista de compras de forma prática e organizada.
+ListaFácil é uma aplicação web simples feita com HTML, CSS e JavaScript, que permite o usuário criar, visualizar e gerenciar uma lista de compras de forma prática e organizada.
+
 ---
 
 ## 📋 Funcionalidades
